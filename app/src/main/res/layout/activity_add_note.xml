@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".addeditnote.AddEditNoteActivity">
+
+    <android.support.design.widget.AppBarLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+            android:layout_marginTop="80dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+                android:id="@+id/edit_note_name"
+                android:hint="@string/note_title_hint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:inputType="text"/>
+
+        <EditText
+                android:id="@+id/edit_note_desc"
+                android:hint="@string/note_description_hint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="8"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:inputType="textMultiLine"/>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_margin="8dp"
+                      android:padding="8dp"
+                      android:text="@string/sw_urgent"
+            />
+            <Switch
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/sw_note_urgent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

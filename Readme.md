@@ -1,0 +1,1 @@
+# A simple Android notes application using a RecyclerView, CardView, LiveData and Room

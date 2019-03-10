@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Notes App</string>
+    <string name="title_activity_add_note">AddNoteActivity</string>
+    <string name="note_title_hint">Note title</string>
+    <string name="note_description_hint">Note description</string>
+    <string name="save_menu">Save</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="add_note_title">Add Note</string>
+    <string name="sw_urgent">Urgent</string>
+    <string name="note_name_empty_error">Note name can\'t be empty</string>
+    <string name="note_desc_empty_error">Note description can\'t be empty</string>
+    <string name="note_saved">Note saved</string>
+    <string name="delete">Delete</string>
+    <string name="edit_note">Edit note</string>
+    <string name="note_updated">Note updated</string>
+</resources>
